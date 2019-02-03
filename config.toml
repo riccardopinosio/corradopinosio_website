@@ -1,0 +1,72 @@
+# Site settings
+baseURL = "//example.org"
+languageCode = "en-US"
+title = "Corrado Pinosio - La Fluttuazione Armonica del Colore"
+theme = "hugo-split-theme"
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+# Copyright
+copyright = "&copy;2019 Corrado Pinosio"
+
+[params]
+
+  # Metadata for search engines and social sharing
+  author = "Corrado Pinosio"
+  description = "Sito personale di Corrado Pinosio."
+  shareImage = "images/social.jpg"
+  #twitterHandle = "onepagelove"
+
+  # Favicon
+  favicon = "favicon.ico"
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "images/background.jpg"
+      position = "center center"
+
+    # Video
+    [params.visual.video]
+      enable = false
+      mute = true
+      file = "videos/background.mp4"
+      # youtubeId = "dk9uNWPP7EA"
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Personale"
+
+      [[params.links.list1.link]]
+        text = "Biografia"
+        url = "bio"
+
+      [[params.links.list1.link]]
+        text = "Email"
+        url = "#"
+
+  # Links List #2
+  [[params.links]]
+    [params.links.list2]
+      heading = "Arte"
+
+      [[params.links.list2.link]]
+        text = "Opere"
+        url = "#"
+
+      [[params.links.list2.link]]
+        text = "Critica"
+        url = "critica"
+
+  # The original template is released under the Creative Commons Attribution 3.0 License.
+  # Please keep the original attribution link when using for your own project.
+  # If you'd like to use the template without the attribution, you can check out
+  # the license option via the template author's website: https://onepagelove.com/split
