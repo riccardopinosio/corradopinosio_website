@@ -1,6 +1,6 @@
 +++
 title = "Corrado Pinosio"
-tagline = "Biografia"
+tagline = "Valutazione Critica"
 background_override = "images/artista.jpg"
 +++
 

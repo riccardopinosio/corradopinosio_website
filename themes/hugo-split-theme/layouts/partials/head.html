@@ -25,6 +25,11 @@
 <link rel="stylesheet" href="{{ "assets/css/split.css" | absURL }}" type="text/css" media="screen" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 
+  {{if in .Type "galleries" }}
+  <link rel="stylesheet" href="{{ "assets/css/glightbox.css" | absURL }}" type="text/css" media="screen" />
+  <script src="assets/js/glightbox.js"></script>
+  {{ end }}
+
 <!-- Image Styles -->
 {{ if .Site.Params.visual.image.enable }}
   <style>

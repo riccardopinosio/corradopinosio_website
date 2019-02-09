@@ -60,7 +60,7 @@ copyright = "&copy;2019 Corrado Pinosio"
 
       [[params.links.list2.link]]
         text = "Opere"
-        url = "#"
+        url = "galleries/main_gallery"
 
       [[params.links.list2.link]]
         text = "Critica"
