@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "www.corradopinosio.com"
+baseURL = "https://www.corradopinosio.com"
 languageCode = "en-US"
 title = "Corrado Pinosio - La Fluttuazione Armonica del Colore"
 theme = "hugo-split-theme"
