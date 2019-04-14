@@ -51,7 +51,7 @@ copyright = "&copy;2019 Corrado Pinosio"
 
       [[params.links.list1.link]]
         text = "Email"
-        url = "#"
+        url = "rpinosio@gmail.com"
 
   # Links List #2
   [[params.links]]
