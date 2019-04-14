@@ -51,7 +51,10 @@ copyright = "&copy;2019 Corrado Pinosio"
 
       [[params.links.list1.link]]
         text = "Email"
-        url = "mailto:rpinosio@gmail.com"
+        url = "mailto:pincord@gmail.com"
+
+     [[params.links.list1.link]]
+        text = "041 423793"
 
   # Links List #2
   [[params.links]]
