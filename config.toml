@@ -28,7 +28,7 @@ copyright = "&copy;2019 Corrado Pinosio"
     # Image
     [params.visual.image]
       enable = true
-      file = "images/background2.jpg"
+      file = "images/background2.png"
       position = "center center"
 
     # Video
